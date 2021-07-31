@@ -10,8 +10,10 @@
 
 let body = JSON.parse($request.body);
 
-body.longitude ='116.3201' + Math.floor(Math.random() * 100);
-body.latitude ='39.9894' + Math.floor(Math.random() * 100);
+//body.longitude ='116.3201' + Math.floor(Math.random() * 100);
+//body.latitude ='39.9894' + Math.floor(Math.random() * 100);
+
+body.vpn = 'false'
 
 body = JSON.stringify(body);
 console.log(body);
