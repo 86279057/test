@@ -15,4 +15,4 @@ body.latitude ='39.177440';
 body = JSON.stringify(body);
 $done({body});
 
-cnosole.log(body)
+cnosole.log(body);
