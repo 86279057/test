@@ -8,7 +8,7 @@
 //    body
 //  })
 
-let body = JSON.parse($response.body)
+let body = JSON.parse($response.body);
 body.longitude = '116.288160';
 body.latitude ='39.177440';
 
